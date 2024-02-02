@@ -1,0 +1,75 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "name": "iPhone 13",
+                "details": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                            }
+                        ]
+                    }
+                ],
+                "price": 2099,
+                "createdAt": "2023-12-27T19:20:50.653Z",
+                "updatedAt": "2023-12-27T19:23:41.143Z",
+                "publishedAt": "2023-12-27T19:23:21.778Z"
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "name": "iPhone 15",
+                "details": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "Iphone 15. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                            }
+                        ]
+                    }
+                ],
+                "price": 2399,
+                "createdAt": "2023-12-27T19:20:55.903Z",
+                "updatedAt": "2023-12-27T19:23:16.847Z",
+                "publishedAt": "2023-12-27T19:23:16.842Z"
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "name": "Samsung ",
+                "details": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "Lorem ipsum dolar"
+                            }
+                        ]
+                    }
+                ],
+                "price": 399,
+                "createdAt": "2023-12-28T13:35:23.766Z",
+                "updatedAt": "2023-12-28T13:35:27.152Z",
+                "publishedAt": "2023-12-28T13:35:27.145Z"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 3
+        }
+    }
+}

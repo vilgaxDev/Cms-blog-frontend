@@ -1,0 +1,29 @@
+.single_article {
+    display: flex;
+    align-items: center;
+}
+.single_article {
+    margin: 30px 0;
+}
+.single_article .date {
+    margin-top: auto;
+    font-size: 14px;
+}
+.single_article .ArticleCart {
+    display: flex;
+}
+.single_article .ArticleCart > * {
+    width: 50%;
+}
+
+.single_article img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+@media (min-width: 1024px) {
+    .single_article .title {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+}
