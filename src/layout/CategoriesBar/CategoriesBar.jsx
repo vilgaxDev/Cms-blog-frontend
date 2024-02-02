@@ -4,7 +4,7 @@ import './CategoriesBar.css'
 
 export default function CategoriesBar() {
     const { isLoading, error, data } = useFetch(
-        "http://localhost:1337/api/categories?filters[$and][0][ShowOnHeader][$eq]=true"
+        "https://cms-blog-backend.onrender.com/api/categories?filters[$and][0][ShowOnHeader][$eq]=true"
     );
     if (isLoading) return;
     if (error) return;

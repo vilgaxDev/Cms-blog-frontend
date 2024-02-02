@@ -6,14 +6,14 @@ export default function Home() {
       <>
          <SingleBlog />
          <BlogsList
-            fetch="http://localhost:1337/api/blogs?populate=author.photo,categories,image"
+            fetch="https://cms-blog-backend.onrender.com/api/blogs?populate=author.photo,categories,image"
             className="section_container"
             beginsFrom="0"
             Ends="5"
             titleH1="Latest Blogs"
          />
          <BlogsList
-            fetch="http://localhost:1337/api/blogs?filters[$and][0][categories][Slug][$eq]=science&populate=author.photo,categories,image"
+            fetch="https://cms-blog-backend.onrender.com/api/blogs?filters[$and][0][categories][Slug][$eq]=science&populate=author.photo,categories,image"
             className="section_container"
             beginsFrom="0"
             Ends="4"

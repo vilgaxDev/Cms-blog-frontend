@@ -6,7 +6,7 @@ export default function BlogDetailsPage() {
         <>
             <BlogDetails />
             <BlogsList
-                fetch="http://localhost:1337/api/blogs?populate=author.photo,categories,image"
+                fetch="https://cms-blog-backend.onrender.com/api/blogs?populate=author.photo,categories,image"
                 className="section_container latestBlogs"
                 beginsFrom="0"
                 Ends="4"

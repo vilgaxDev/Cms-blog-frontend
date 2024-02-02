@@ -6,7 +6,7 @@ export default function Blogs() {
       <>
          <CategoriesBar />
          <BlogsList
-            fetch="http://localhost:1337/api/blogs?populate=author.photo,categories,image"
+            fetch="https://cms-blog-backend.onrender.com/api/blogs?populate=author.photo,categories,image"
             titleH1="Blogs"
             className="section_container"
          />

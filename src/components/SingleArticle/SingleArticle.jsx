@@ -6,7 +6,7 @@ import formatDate from "../../utils/formatDate";
 
 export default function SingleArticle() {
    const { isLoading, error, data } = useFetch(
-      "http://localhost:1337/api/blogs?populate=author.photo,categories,image"
+      "https://cms-blog-backend.onrender.com/api/blogs?populate=author.photo,categories,image"
    );
 
    if (isLoading) return;

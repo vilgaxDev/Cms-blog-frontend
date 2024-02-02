@@ -11,7 +11,7 @@ export default function Category(props) {
    const { isLoading, error, data, setUrl } = useFetch();
 
    useEffect(() => {
-      setUrl(`http://localhost:1337/api/blogs?filters[$and][0][categories][Slug][$eq]=${slug}&populate=author.photo,categories,image`);
+      setUrl(`https://cms-blog-backend.onrender.com/api/blogs?filters[$and][0][categories][Slug][$eq]=${slug}&populate=author.photo,categories,image`);
    }, [slug, setUrl]);
 
    if (isLoading) return;
