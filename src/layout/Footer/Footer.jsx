@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
             <div className="foot_bottom">
                 <div className="container">
-                    <p>© 2024 Blog App powered by kenbrian  #vilgax dev# . All Rights Reserved</p>
+                    <p>© 2024 Blog App powered by kenbrian  . All Rights Reserved</p>
                 </div>
             </div>
 
