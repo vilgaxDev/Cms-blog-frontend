@@ -1,5 +1,5 @@
 import Logo from '../../components/Logo/Logo';
-import ThemeSwitch from '../../components/ThemeSwitch/themeSwitch';
+// import ThemeSwitch from '../../components/ThemeSwitch/themeSwitch';
 import NavBar from '../../components/NavBar/Navbar';
 import './Footer.css'
 
@@ -13,9 +13,9 @@ export default function Footer() {
                             <Logo />
                         </div>
                         <NavBar />
-                        <div className="right">
+                        {/* <div className="right">
                             <ThemeSwitch />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
